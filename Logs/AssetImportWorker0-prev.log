@@ -1,0 +1,970 @@
+Using pre-set license
+Built from '2021.3/china_unity/release' branch; Version is '2021.3.0f1c1 (c833db084d5b) revision 13120475'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'zh' Physical Memory: 65257 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.0f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/HQFrameWork
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+6616
+Successfully changed project path to: E:/HQFrameWork
+E:/HQFrameWork
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+AS: AutoStreaming module initializing.
+Refreshing native plugins compatible for Editor in 85.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.0f1c1 (c833db084d5b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.0f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/HQFrameWork/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2504)
+    Vendor:   NVIDIA
+    VRAM:     12142 MB
+    Driver:   30.0.15.1123
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.0f1c1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.0f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.0f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56648
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.0f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007563 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 83.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.606 seconds
+Domain Reload Profiling:
+	ReloadAssembly (606ms)
+		BeginReloadAssembly (82ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (408ms)
+			LoadAssemblies (73ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (82ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (241ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (83ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (102ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.022481 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\HQFrameWork\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image E:\HQFrameWork\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 83.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.123 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1124ms)
+		BeginReloadAssembly (113ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (14ms)
+		EndReloadAssembly (896ms)
+			LoadAssemblies (117ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (187ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (488ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (83ms)
+				BeforeProcessingInitializeOnLoad (108ms)
+				ProcessInitializeOnLoadAttributes (206ms)
+				ProcessInitializeOnLoadMethodAttributes (62ms)
+				AfterProcessingInitializeOnLoad (22ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4851 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (0.7 MB). Loaded Objects now: 5309.
+Memory consumption went from 188.6 MB to 187.9 MB.
+Total: 3.397800 ms (FindLiveObjects: 0.492700 ms CreateObjectMapping: 0.323400 ms MarkObjects: 2.315700 ms  DeleteObjects: 0.264900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 190125.374178 seconds.
+  path: Assets/Plugins/Demigiant
+  artifactKey: Guid(9564403b72a36ac44b368a764e95511a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant using Guid(9564403b72a36ac44b368a764e95511a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eec46f7aae6b726ad7e6e9505b8fcb8') in 0.013545 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Plugins
+  artifactKey: Guid(d039c262cf5b5dd4c88db4a5aab04b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins using Guid(d039c262cf5b5dd4c88db4a5aab04b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab2e189dbc422ff89fed77e42a9a0822') in 0.005836 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.064361 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\HQFrameWork\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image E:\HQFrameWork\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 128.41 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.409 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1410ms)
+		BeginReloadAssembly (127ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (1161ms)
+			LoadAssemblies (123ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (323ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (595ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (129ms)
+				BeforeProcessingInitializeOnLoad (111ms)
+				ProcessInitializeOnLoadAttributes (226ms)
+				ProcessInitializeOnLoadMethodAttributes (89ms)
+				AfterProcessingInitializeOnLoad (28ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 8.02 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5565 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (0.7 MB). Loaded Objects now: 6075.
+Memory consumption went from 205.6 MB to 204.9 MB.
+Total: 3.703400 ms (FindLiveObjects: 0.432500 ms CreateObjectMapping: 0.288600 ms MarkObjects: 2.706400 ms  DeleteObjects: 0.274500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.053922 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\HQFrameWork\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image E:\HQFrameWork\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.48 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at QFramework.Pro.IMGUIGraphAssetModProcessor.OnReloadEditor () [0x0004e] in E:\HQFrameWork\Assets\QFramework\ToolKitsPro\GraphKit\IMGUI\Scripts\Editor\IMGUIGraphAssetModProcessor.cs:76 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <6073cf49ed704e958b8a66d540dea948>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <6073cf49ed704e958b8a66d540dea948>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <6073cf49ed704e958b8a66d540dea948>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <bdbae0e7a2b24e08ad2f04e9eab5eb82>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.334 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1335ms)
+		BeginReloadAssembly (154ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (1053ms)
+			LoadAssemblies (148ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (292ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (529ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (95ms)
+				ProcessInitializeOnLoadAttributes (225ms)
+				ProcessInitializeOnLoadMethodAttributes (168ms)
+				AfterProcessingInitializeOnLoad (26ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.32 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6023 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (0.9 MB). Loaded Objects now: 6551.
+Memory consumption went from 222.2 MB to 221.3 MB.
+Total: 2.743700 ms (FindLiveObjects: 0.347200 ms CreateObjectMapping: 0.185100 ms MarkObjects: 2.016800 ms  DeleteObjects: 0.193600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 1.083758 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\HQFrameWork\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image E:\HQFrameWork\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.38 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at QFramework.Pro.IMGUIGraphAssetModProcessor.OnReloadEditor () [0x0004e] in E:\HQFrameWork\Assets\QFramework\ToolKitsPro\GraphKit\IMGUI\Scripts\Editor\IMGUIGraphAssetModProcessor.cs:76 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <6073cf49ed704e958b8a66d540dea948>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <6073cf49ed704e958b8a66d540dea948>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <6073cf49ed704e958b8a66d540dea948>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <bdbae0e7a2b24e08ad2f04e9eab5eb82>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.270 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2271ms)
+		BeginReloadAssembly (206ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (52ms)
+		EndReloadAssembly (1840ms)
+			LoadAssemblies (207ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (567ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (79ms)
+			SetupLoadedEditorAssemblies (875ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (161ms)
+				ProcessInitializeOnLoadAttributes (412ms)
+				ProcessInitializeOnLoadMethodAttributes (240ms)
+				AfterProcessingInitializeOnLoad (36ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.65 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6182 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 54 unused Assets / (0.8 MB). Loaded Objects now: 6722.
+Memory consumption went from 227.1 MB to 226.3 MB.
+Total: 3.199800 ms (FindLiveObjects: 0.445200 ms CreateObjectMapping: 0.305900 ms MarkObjects: 2.221800 ms  DeleteObjects: 0.226100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 241.850951 seconds.
+  path: Packages/com.unity.render-pipelines.universal/package.json
+  artifactKey: Guid(30648b8d550465f4bb77f1e1afd0b37d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/package.json using Guid(30648b8d550465f4bb77f1e1afd0b37d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45f958e379fd66f528bd93a7a2308089') in 0.036671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.790423 seconds.
+  path: Assets/Resources
+  artifactKey: Guid(4a86751428e5a65418a3b06b4addc4ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources using Guid(4a86751428e5a65418a3b06b4addc4ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cf364e6daae1e2d9b5dd17dbd6a8f96') in 0.004256 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.028869 seconds.
+  path: Assets/Resources/DOTweenSettings.asset
+  artifactKey: Guid(a95cf5e8e07403042bde899d29fd2525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/DOTweenSettings.asset using Guid(a95cf5e8e07403042bde899d29fd2525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f726fa5079874f0080079a96ce59a22') in 0.006921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.666269 seconds.
+  path: Assets/Resources/New Folder
+  artifactKey: Guid(61fcdef394087104e831db531418b732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/New Folder using Guid(61fcdef394087104e831db531418b732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f54d44c8b1db3a55b9b812814aa945c') in 0.004822 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.746513 seconds.
+  path: Assets/Editor
+  artifactKey: Guid(3581d82719b535b4e8e98c7f679868f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor using Guid(3581d82719b535b4e8e98c7f679868f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71c4c6797ebcea82d3bd742d7ac9643c') in 0.005394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.880822 seconds.
+  path: Assets/Editor/新建文本文档.txt
+  artifactKey: Guid(a58ce553bdf9c3e4b88d74018d70246a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/新建文本文档.txt using Guid(a58ce553bdf9c3e4b88d74018d70246a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14df18972fe2ec58e02053d2bb3d34a2') in 0.009351 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.080625 seconds.
+  path: Assets/QFramework
+  artifactKey: Guid(2d09b137c4d39254a97e339c728ac734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QFramework using Guid(2d09b137c4d39254a97e339c728ac734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bafa81a4246a641361ae4945b7295d0') in 0.010876 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.593660 seconds.
+  path: Assets/QFrameworkData
+  artifactKey: Guid(6cd3aa5be40c16046ac84902df5dc47a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QFrameworkData using Guid(6cd3aa5be40c16046ac84902df5dc47a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1b4296f6215c5b96063859fa826343b') in 0.004569 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.111689 seconds.
+  path: Assets/ParadoxNotion
+  artifactKey: Guid(274b3e4a9d2c05844a5d13cdd8a1a6d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ParadoxNotion using Guid(274b3e4a9d2c05844a5d13cdd8a1a6d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb32b594e4fed0aa1fa5f74816640a6c') in 0.015152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.296572 seconds.
+  path: Assets/EFramework
+  artifactKey: Guid(c0f4f1c258d274249a27a453f3de2f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EFramework using Guid(c0f4f1c258d274249a27a453f3de2f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af51cc5643c2368609a6c1cdff5f9133') in 0.004506 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.057326 seconds.
+ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <6073cf49ed704e958b8a66d540dea948>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <6073cf49ed704e958b8a66d540dea948>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <1e18c5a6594041c9844bfd0b6618ee4a>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <1e18c5a6594041c9844bfd0b6618ee4a>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <1e18c5a6594041c9844bfd0b6618ee4a>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <bdbae0e7a2b24e08ad2f04e9eab5eb82>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
+
+ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <6073cf49ed704e958b8a66d540dea948>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <6073cf49ed704e958b8a66d540dea948>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <1e18c5a6594041c9844bfd0b6618ee4a>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <1e18c5a6594041c9844bfd0b6618ee4a>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <1e18c5a6594041c9844bfd0b6618ee4a>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <bdbae0e7a2b24e08ad2f04e9eab5eb82>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
+
+ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <6073cf49ed704e958b8a66d540dea948>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <6073cf49ed704e958b8a66d540dea948>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <1e18c5a6594041c9844bfd0b6618ee4a>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <1e18c5a6594041c9844bfd0b6618ee4a>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <1e18c5a6594041c9844bfd0b6618ee4a>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <bdbae0e7a2b24e08ad2f04e9eab5eb82>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
+
+ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <6073cf49ed704e958b8a66d540dea948>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <6073cf49ed704e958b8a66d540dea948>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <1e18c5a6594041c9844bfd0b6618ee4a>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <1e18c5a6594041c9844bfd0b6618ee4a>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <1e18c5a6594041c9844bfd0b6618ee4a>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <bdbae0e7a2b24e08ad2f04e9eab5eb82>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
+
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\HQFrameWork\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image E:\HQFrameWork\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Assembly with name 'QFramework.CoreKit' already exists (Assets/Prefabs/QFramework/Toolkits/_CoreKit/QFramework.CoreKit.asmdef)
+Assembly with name 'QFramework.CoreKit' already exists (Assets/QFramework/Toolkits/_CoreKit/QFramework.CoreKit.asmdef)
+Assembly with name 'GraphKit.IMGUI.Editor' already exists (Assets/Prefabs/QFramework/ToolKitsPro/GraphKit/IMGUI/Scripts/Editor/GraphKit.IMGUI.Editor.asmdef)
+Assembly with name 'GraphKit.IMGUI.Editor' already exists (Assets/QFramework/ToolKitsPro/GraphKit/IMGUI/Scripts/Editor/GraphKit.IMGUI.Editor.asmdef)
+Assembly with name 'ResKit' already exists (Assets/Prefabs/QFramework/Toolkits/ResKit/Scripts/ResKit.asmdef)
+Assembly with name 'ResKit' already exists (Assets/QFramework/Toolkits/ResKit/Scripts/ResKit.asmdef)
+Assembly with name 'Documents.Editor' already exists (Assets/Prefabs/QFramework/Documents/Editor/Documents.Editor.asmdef)
+Assembly with name 'Documents.Editor' already exists (Assets/QFramework/Documents/Editor/Documents.Editor.asmdef)
+Assembly with name 'DocKit.Editor' already exists (Assets/Prefabs/QFramework/ToolKitsPro/DocKit/Editor/DocKit.Editor.asmdef)
+Assembly with name 'DocKit.Editor' already exists (Assets/QFramework/ToolKitsPro/DocKit/Editor/DocKit.Editor.asmdef)
+Assembly with name 'UIKit' already exists (Assets/Prefabs/QFramework/Toolkits/UIKit/Scripts/UIKit.asmdef)
+Assembly with name 'UIKit' already exists (Assets/QFramework/Toolkits/UIKit/Scripts/UIKit.asmdef)
+Assembly with name 'QFramework.CoreKitPro' already exists (Assets/Prefabs/QFramework/ToolKitsPro/_CoreKitPro/QFramework.CoreKitPro.asmdef)
+Assembly with name 'QFramework.CoreKitPro' already exists (Assets/QFramework/ToolKitsPro/_CoreKitPro/QFramework.CoreKitPro.asmdef)
+Assembly with name 'ResKit.Editor' already exists (Assets/Prefabs/QFramework/Toolkits/ResKit/Editor/ResKit.Editor.asmdef)
+Assembly with name 'ResKit.Editor' already exists (Assets/QFramework/Toolkits/ResKit/Editor/ResKit.Editor.asmdef)
+Assembly with name 'GraphKit.IMGUI' already exists (Assets/Prefabs/QFramework/ToolKitsPro/GraphKit/IMGUI/Scripts/GraphKit.IMGUI.asmdef)
+Assembly with name 'GraphKit.IMGUI' already exists (Assets/QFramework/ToolKitsPro/GraphKit/IMGUI/Scripts/GraphKit.IMGUI.asmdef)
+Assembly with name 'com.alelievr.NodeGraphProcessor.Runtime' already exists (Assets/Prefabs/QFramework/ToolKitsPro/GraphKit/NodeGraphProcessorModified/Runtime/com.alelievr.NodeGraphProcessor.Runtime.asmdef)
+Assembly with name 'com.alelievr.NodeGraphProcessor.Runtime' already exists (Assets/QFramework/ToolKitsPro/GraphKit/NodeGraphProcessorModified/Runtime/com.alelievr.NodeGraphProcessor.Runtime.asmdef)
+Assembly with name 'com.alelievr.NodeGraphProcessor.Editor' already exists (Assets/Prefabs/QFramework/ToolKitsPro/GraphKit/NodeGraphProcessorModified/Editor/com.alelievr.NodeGraphProcessor.Editor.asmdef)
+Assembly with name 'com.alelievr.NodeGraphProcessor.Editor' already exists (Assets/QFramework/ToolKitsPro/GraphKit/NodeGraphProcessorModified/Editor/com.alelievr.NodeGraphProcessor.Editor.asmdef)
+Assembly with name 'AudioKit' already exists (Assets/Prefabs/QFramework/Toolkits/AudioKit/Scripts/AudioKit.asmdef)
+Assembly with name 'AudioKit' already exists (Assets/QFramework/Toolkits/AudioKit/Scripts/AudioKit.asmdef)
+Assembly with name 'ParadoxNotion' already exists (Assets/Plugins/ParadoxNotion/ParadoxNotion.asmdef)
+Assembly with name 'ParadoxNotion' already exists (Assets/ParadoxNotion/ParadoxNotion.asmdef)
+Assembly with name 'UIKit.Editor' already exists (Assets/Prefabs/QFramework/Toolkits/UIKit/Editor/UIKit.Editor.asmdef)
+Assembly with name 'UIKit.Editor' already exists (Assets/QFramework/Toolkits/UIKit/Editor/UIKit.Editor.asmdef)
+Assembly with name 'QFramework' already exists (Assets/Prefabs/QFramework/Framework/Scripts/QFramework.asmdef)
+Assembly with name 'QFramework' already exists (Assets/QFramework/Framework/Scripts/QFramework.asmdef)
+ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <6073cf49ed704e958b8a66d540dea948>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <6073cf49ed704e958b8a66d540dea948>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <1e18c5a6594041c9844bfd0b6618ee4a>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <1e18c5a6594041c9844bfd0b6618ee4a>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <1e18c5a6594041c9844bfd0b6618ee4a>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <bdbae0e7a2b24e08ad2f04e9eab5eb82>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
+
+ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <6073cf49ed704e958b8a66d540dea948>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <6073cf49ed704e958b8a66d540dea948>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <1e18c5a6594041c9844bfd0b6618ee4a>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <1e18c5a6594041c9844bfd0b6618ee4a>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <1e18c5a6594041c9844bfd0b6618ee4a>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <bdbae0e7a2b24e08ad2f04e9eab5eb82>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
+
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at QFramework.Pro.IMGUIGraphAssetModProcessor.OnReloadEditor () [0x0004e] in E:\HQFrameWork\Assets\Prefabs\QFramework\ToolKitsPro\GraphKit\IMGUI\Scripts\Editor\IMGUIGraphAssetModProcessor.cs:76 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <6073cf49ed704e958b8a66d540dea948>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <6073cf49ed704e958b8a66d540dea948>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <6073cf49ed704e958b8a66d540dea948>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <bdbae0e7a2b24e08ad2f04e9eab5eb82>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.197 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1198ms)
+		BeginReloadAssembly (135ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (953ms)
+			LoadAssemblies (122ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (257ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (484ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (125ms)
+				ProcessInitializeOnLoadAttributes (213ms)
+				ProcessInitializeOnLoadMethodAttributes (108ms)
+				AfterProcessingInitializeOnLoad (24ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 6.51 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6180 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 54 unused Assets / (0.8 MB). Loaded Objects now: 6737.
+Memory consumption went from 226.6 MB to 225.9 MB.
+Total: 3.227200 ms (FindLiveObjects: 0.354200 ms CreateObjectMapping: 0.219200 ms MarkObjects: 2.398300 ms  DeleteObjects: 0.254400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 22.830675 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(1705d1371e514bc458abcbeb88a3b661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(1705d1371e514bc458abcbeb88a3b661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f6ea8a75e14fa3d71bca119f38d2def') in 0.011736 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.669795 seconds.
+  path: Assets/QFrameworkData
+  artifactKey: Guid(c753761e3ccc98e48948e4ab47bf1abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QFrameworkData using Guid(c753761e3ccc98e48948e4ab47bf1abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cb844c0b13a27b343e1a36d9fc64e8e') in 0.004136 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.060678 seconds.
+Assembly with name 'QFramework.CoreKit' already exists (Assets/Prefabs/QFramework/Toolkits/_CoreKit/QFramework.CoreKit.asmdef)
+Assembly with name 'QFramework.CoreKit' already exists (Assets/QFramework/Toolkits/_CoreKit/QFramework.CoreKit.asmdef)
+Assembly with name 'GraphKit.IMGUI.Editor' already exists (Assets/Prefabs/QFramework/ToolKitsPro/GraphKit/IMGUI/Scripts/Editor/GraphKit.IMGUI.Editor.asmdef)
+Assembly with name 'GraphKit.IMGUI.Editor' already exists (Assets/QFramework/ToolKitsPro/GraphKit/IMGUI/Scripts/Editor/GraphKit.IMGUI.Editor.asmdef)
+Assembly with name 'ResKit' already exists (Assets/Prefabs/QFramework/Toolkits/ResKit/Scripts/ResKit.asmdef)
+Assembly with name 'ResKit' already exists (Assets/QFramework/Toolkits/ResKit/Scripts/ResKit.asmdef)
+Assembly with name 'Documents.Editor' already exists (Assets/Prefabs/QFramework/Documents/Editor/Documents.Editor.asmdef)
+Assembly with name 'Documents.Editor' already exists (Assets/QFramework/Documents/Editor/Documents.Editor.asmdef)
+Assembly with name 'DocKit.Editor' already exists (Assets/Prefabs/QFramework/ToolKitsPro/DocKit/Editor/DocKit.Editor.asmdef)
+Assembly with name 'DocKit.Editor' already exists (Assets/QFramework/ToolKitsPro/DocKit/Editor/DocKit.Editor.asmdef)
+Assembly with name 'UIKit' already exists (Assets/Prefabs/QFramework/Toolkits/UIKit/Scripts/UIKit.asmdef)
+Assembly with name 'UIKit' already exists (Assets/QFramework/Toolkits/UIKit/Scripts/UIKit.asmdef)
+Assembly with name 'QFramework.CoreKitPro' already exists (Assets/Prefabs/QFramework/ToolKitsPro/_CoreKitPro/QFramework.CoreKitPro.asmdef)
+Assembly with name 'QFramework.CoreKitPro' already exists (Assets/QFramework/ToolKitsPro/_CoreKitPro/QFramework.CoreKitPro.asmdef)
+Assembly with name 'ResKit.Editor' already exists (Assets/Prefabs/QFramework/Toolkits/ResKit/Editor/ResKit.Editor.asmdef)
+Assembly with name 'ResKit.Editor' already exists (Assets/QFramework/Toolkits/ResKit/Editor/ResKit.Editor.asmdef)
+Assembly with name 'GraphKit.IMGUI' already exists (Assets/Prefabs/QFramework/ToolKitsPro/GraphKit/IMGUI/Scripts/GraphKit.IMGUI.asmdef)
+Assembly with name 'GraphKit.IMGUI' already exists (Assets/QFramework/ToolKitsPro/GraphKit/IMGUI/Scripts/GraphKit.IMGUI.asmdef)
+Assembly with name 'com.alelievr.NodeGraphProcessor.Runtime' already exists (Assets/Prefabs/QFramework/ToolKitsPro/GraphKit/NodeGraphProcessorModified/Runtime/com.alelievr.NodeGraphProcessor.Runtime.asmdef)
+Assembly with name 'com.alelievr.NodeGraphProcessor.Runtime' already exists (Assets/QFramework/ToolKitsPro/GraphKit/NodeGraphProcessorModified/Runtime/com.alelievr.NodeGraphProcessor.Runtime.asmdef)
+Assembly with name 'com.alelievr.NodeGraphProcessor.Editor' already exists (Assets/Prefabs/QFramework/ToolKitsPro/GraphKit/NodeGraphProcessorModified/Editor/com.alelievr.NodeGraphProcessor.Editor.asmdef)
+Assembly with name 'com.alelievr.NodeGraphProcessor.Editor' already exists (Assets/QFramework/ToolKitsPro/GraphKit/NodeGraphProcessorModified/Editor/com.alelievr.NodeGraphProcessor.Editor.asmdef)
+Assembly with name 'AudioKit' already exists (Assets/Prefabs/QFramework/Toolkits/AudioKit/Scripts/AudioKit.asmdef)
+Assembly with name 'AudioKit' already exists (Assets/QFramework/Toolkits/AudioKit/Scripts/AudioKit.asmdef)
+Assembly with name 'ParadoxNotion' already exists (Assets/Plugins/ParadoxNotion/ParadoxNotion.asmdef)
+Assembly with name 'ParadoxNotion' already exists (Assets/ParadoxNotion/ParadoxNotion.asmdef)
+Assembly with name 'UIKit.Editor' already exists (Assets/Prefabs/QFramework/Toolkits/UIKit/Editor/UIKit.Editor.asmdef)
+Assembly with name 'UIKit.Editor' already exists (Assets/QFramework/Toolkits/UIKit/Editor/UIKit.Editor.asmdef)
+Assembly with name 'QFramework' already exists (Assets/Prefabs/QFramework/Framework/Scripts/QFramework.asmdef)
+Assembly with name 'QFramework' already exists (Assets/QFramework/Framework/Scripts/QFramework.asmdef)
+Assembly with name 'QFramework.CoreKit' already exists (Assets/Plugins/QFramework/Toolkits/_CoreKit/QFramework.CoreKit.asmdef)
+Assembly with name 'QFramework.CoreKit' already exists (Assets/QFramework/Toolkits/_CoreKit/QFramework.CoreKit.asmdef)
+Assembly with name 'GraphKit.IMGUI.Editor' already exists (Assets/Plugins/QFramework/ToolKitsPro/GraphKit/IMGUI/Scripts/Editor/GraphKit.IMGUI.Editor.asmdef)
+Assembly with name 'GraphKit.IMGUI.Editor' already exists (Assets/QFramework/ToolKitsPro/GraphKit/IMGUI/Scripts/Editor/GraphKit.IMGUI.Editor.asmdef)
+Assembly with name 'ResKit' already exists (Assets/Plugins/QFramework/Toolkits/ResKit/Scripts/ResKit.asmdef)
+Assembly with name 'ResKit' already exists (Assets/QFramework/Toolkits/ResKit/Scripts/ResKit.asmdef)
+Assembly with name 'Documents.Editor' already exists (Assets/Plugins/QFramework/Documents/Editor/Documents.Editor.asmdef)
+Assembly with name 'Documents.Editor' already exists (Assets/QFramework/Documents/Editor/Documents.Editor.asmdef)
+Assembly with name 'DocKit.Editor' already exists (Assets/Plugins/QFramework/ToolKitsPro/DocKit/Editor/DocKit.Editor.asmdef)
+Assembly with name 'DocKit.Editor' already exists (Assets/QFramework/ToolKitsPro/DocKit/Editor/DocKit.Editor.asmdef)
+Assembly with name 'UIKit' already exists (Assets/Plugins/QFramework/Toolkits/UIKit/Scripts/UIKit.asmdef)
+Assembly with name 'UIKit' already exists (Assets/QFramework/Toolkits/UIKit/Scripts/UIKit.asmdef)
+Assembly with name 'QFramework.CoreKitPro' already exists (Assets/Plugins/QFramework/ToolKitsPro/_CoreKitPro/QFramework.CoreKitPro.asmdef)
+Assembly with name 'QFramework.CoreKitPro' already exists (Assets/QFramework/ToolKitsPro/_CoreKitPro/QFramework.CoreKitPro.asmdef)
+Assembly with name 'ResKit.Editor' already exists (Assets/Plugins/QFramework/Toolkits/ResKit/Editor/ResKit.Editor.asmdef)
+Assembly with name 'ResKit.Editor' already exists (Assets/QFramework/Toolkits/ResKit/Editor/ResKit.Editor.asmdef)
+Assembly with name 'GraphKit.IMGUI' already exists (Assets/Plugins/QFramework/ToolKitsPro/GraphKit/IMGUI/Scripts/GraphKit.IMGUI.asmdef)
+Assembly with name 'GraphKit.IMGUI' already exists (Assets/QFramework/ToolKitsPro/GraphKit/IMGUI/Scripts/GraphKit.IMGUI.asmdef)
+Assembly with name 'com.alelievr.NodeGraphProcessor.Runtime' already exists (Assets/Plugins/QFramework/ToolKitsPro/GraphKit/NodeGraphProcessorModified/Runtime/com.alelievr.NodeGraphProcessor.Runtime.asmdef)
+Assembly with name 'com.alelievr.NodeGraphProcessor.Runtime' already exists (Assets/QFramework/ToolKitsPro/GraphKit/NodeGraphProcessorModified/Runtime/com.alelievr.NodeGraphProcessor.Runtime.asmdef)
+Assembly with name 'com.alelievr.NodeGraphProcessor.Editor' already exists (Assets/Plugins/QFramework/ToolKitsPro/GraphKit/NodeGraphProcessorModified/Editor/com.alelievr.NodeGraphProcessor.Editor.asmdef)
+Assembly with name 'com.alelievr.NodeGraphProcessor.Editor' already exists (Assets/QFramework/ToolKitsPro/GraphKit/NodeGraphProcessorModified/Editor/com.alelievr.NodeGraphProcessor.Editor.asmdef)
+Assembly with name 'AudioKit' already exists (Assets/Plugins/QFramework/Toolkits/AudioKit/Scripts/AudioKit.asmdef)
+Assembly with name 'AudioKit' already exists (Assets/QFramework/Toolkits/AudioKit/Scripts/AudioKit.asmdef)
+Assembly with name 'UIKit.Editor' already exists (Assets/Plugins/QFramework/Toolkits/UIKit/Editor/UIKit.Editor.asmdef)
+Assembly with name 'UIKit.Editor' already exists (Assets/QFramework/Toolkits/UIKit/Editor/UIKit.Editor.asmdef)
+Assembly with name 'QFramework' already exists (Assets/Plugins/QFramework/Framework/Scripts/QFramework.asmdef)
+Assembly with name 'QFramework' already exists (Assets/QFramework/Framework/Scripts/QFramework.asmdef)
+ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <6073cf49ed704e958b8a66d540dea948>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <6073cf49ed704e958b8a66d540dea948>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <1e18c5a6594041c9844bfd0b6618ee4a>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <1e18c5a6594041c9844bfd0b6618ee4a>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <1e18c5a6594041c9844bfd0b6618ee4a>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <bdbae0e7a2b24e08ad2f04e9eab5eb82>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
+
+ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <6073cf49ed704e958b8a66d540dea948>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <6073cf49ed704e958b8a66d540dea948>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <1e18c5a6594041c9844bfd0b6618ee4a>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <1e18c5a6594041c9844bfd0b6618ee4a>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <1e18c5a6594041c9844bfd0b6618ee4a>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <bdbae0e7a2b24e08ad2f04e9eab5eb82>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
+
+Assembly with name 'QFramework.CoreKit' already exists (Assets/Prefabs/QFramework/Toolkits/_CoreKit/QFramework.CoreKit.asmdef)
+Assembly with name 'QFramework.CoreKit' already exists (Assets/QFramework/Toolkits/_CoreKit/QFramework.CoreKit.asmdef)
+Assembly with name 'GraphKit.IMGUI.Editor' already exists (Assets/Prefabs/QFramework/ToolKitsPro/GraphKit/IMGUI/Scripts/Editor/GraphKit.IMGUI.Editor.asmdef)
+Assembly with name 'GraphKit.IMGUI.Editor' already exists (Assets/QFramework/ToolKitsPro/GraphKit/IMGUI/Scripts/Editor/GraphKit.IMGUI.Editor.asmdef)
+Assembly with name 'ResKit' already exists (Assets/Prefabs/QFramework/Toolkits/ResKit/Scripts/ResKit.asmdef)
+Assembly with name 'ResKit' already exists (Assets/QFramework/Toolkits/ResKit/Scripts/ResKit.asmdef)
+Assembly with name 'Documents.Editor' already exists (Assets/Prefabs/QFramework/Documents/Editor/Documents.Editor.asmdef)
+Assembly with name 'Documents.Editor' already exists (Assets/QFramework/Documents/Editor/Documents.Editor.asmdef)
+Assembly with name 'DocKit.Editor' already exists (Assets/Prefabs/QFramework/ToolKitsPro/DocKit/Editor/DocKit.Editor.asmdef)
+Assembly with name 'DocKit.Editor' already exists (Assets/QFramework/ToolKitsPro/DocKit/Editor/DocKit.Editor.asmdef)
+Assembly with name 'UIKit' already exists (Assets/Prefabs/QFramework/Toolkits/UIKit/Scripts/UIKit.asmdef)
+Assembly with name 'UIKit' already exists (Assets/QFramework/Toolkits/UIKit/Scripts/UIKit.asmdef)
+Assembly with name 'QFramework.CoreKitPro' already exists (Assets/Prefabs/QFramework/ToolKitsPro/_CoreKitPro/QFramework.CoreKitPro.asmdef)
+Assembly with name 'QFramework.CoreKitPro' already exists (Assets/QFramework/ToolKitsPro/_CoreKitPro/QFramework.CoreKitPro.asmdef)
+Assembly with name 'ResKit.Editor' already exists (Assets/Prefabs/QFramework/Toolkits/ResKit/Editor/ResKit.Editor.asmdef)
+Assembly with name 'ResKit.Editor' already exists (Assets/QFramework/Toolkits/ResKit/Editor/ResKit.Editor.asmdef)
+Assembly with name 'GraphKit.IMGUI' already exists (Assets/Prefabs/QFramework/ToolKitsPro/GraphKit/IMGUI/Scripts/GraphKit.IMGUI.asmdef)
+Assembly with name 'GraphKit.IMGUI' already exists (Assets/QFramework/ToolKitsPro/GraphKit/IMGUI/Scripts/GraphKit.IMGUI.asmdef)
+Assembly with name 'com.alelievr.NodeGraphProcessor.Runtime' already exists (Assets/Prefabs/QFramework/ToolKitsPro/GraphKit/NodeGraphProcessorModified/Runtime/com.alelievr.NodeGraphProcessor.Runtime.asmdef)
+Assembly with name 'com.alelievr.NodeGraphProcessor.Runtime' already exists (Assets/QFramework/ToolKitsPro/GraphKit/NodeGraphProcessorModified/Runtime/com.alelievr.NodeGraphProcessor.Runtime.asmdef)
+Assembly with name 'com.alelievr.NodeGraphProcessor.Editor' already exists (Assets/Prefabs/QFramework/ToolKitsPro/GraphKit/NodeGraphProcessorModified/Editor/com.alelievr.NodeGraphProcessor.Editor.asmdef)
+Assembly with name 'com.alelievr.NodeGraphProcessor.Editor' already exists (Assets/QFramework/ToolKitsPro/GraphKit/NodeGraphProcessorModified/Editor/com.alelievr.NodeGraphProcessor.Editor.asmdef)
+Assembly with name 'AudioKit' already exists (Assets/Prefabs/QFramework/Toolkits/AudioKit/Scripts/AudioKit.asmdef)
+Assembly with name 'AudioKit' already exists (Assets/QFramework/Toolkits/AudioKit/Scripts/AudioKit.asmdef)
+Assembly with name 'ParadoxNotion' already exists (Assets/Plugins/ParadoxNotion/ParadoxNotion.asmdef)
+Assembly with name 'ParadoxNotion' already exists (Assets/ParadoxNotion/ParadoxNotion.asmdef)
+Assembly with name 'UIKit.Editor' already exists (Assets/Prefabs/QFramework/Toolkits/UIKit/Editor/UIKit.Editor.asmdef)
+Assembly with name 'UIKit.Editor' already exists (Assets/QFramework/Toolkits/UIKit/Editor/UIKit.Editor.asmdef)
+Assembly with name 'QFramework' already exists (Assets/Prefabs/QFramework/Framework/Scripts/QFramework.asmdef)
+Assembly with name 'QFramework' already exists (Assets/QFramework/Framework/Scripts/QFramework.asmdef)
+Assembly with name 'QFramework.CoreKit' already exists (Assets/Plugins/QFramework/Toolkits/_CoreKit/QFramework.CoreKit.asmdef)
+Assembly with name 'QFramework.CoreKit' already exists (Assets/QFramework/Toolkits/_CoreKit/QFramework.CoreKit.asmdef)
+Assembly with name 'GraphKit.IMGUI.Editor' already exists (Assets/Plugins/QFramework/ToolKitsPro/GraphKit/IMGUI/Scripts/Editor/GraphKit.IMGUI.Editor.asmdef)
+Assembly with name 'GraphKit.IMGUI.Editor' already exists (Assets/QFramework/ToolKitsPro/GraphKit/IMGUI/Scripts/Editor/GraphKit.IMGUI.Editor.asmdef)
+Assembly with name 'ResKit' already exists (Assets/Plugins/QFramework/Toolkits/ResKit/Scripts/ResKit.asmdef)
+Assembly with name 'ResKit' already exists (Assets/QFramework/Toolkits/ResKit/Scripts/ResKit.asmdef)
+Assembly with name 'Documents.Editor' already exists (Assets/Plugins/QFramework/Documents/Editor/Documents.Editor.asmdef)
+Assembly with name 'Documents.Editor' already exists (Assets/QFramework/Documents/Editor/Documents.Editor.asmdef)
+Assembly with name 'DocKit.Editor' already exists (Assets/Plugins/QFramework/ToolKitsPro/DocKit/Editor/DocKit.Editor.asmdef)
+Assembly with name 'DocKit.Editor' already exists (Assets/QFramework/ToolKitsPro/DocKit/Editor/DocKit.Editor.asmdef)
+Assembly with name 'UIKit' already exists (Assets/Plugins/QFramework/Toolkits/UIKit/Scripts/UIKit.asmdef)
+Assembly with name 'UIKit' already exists (Assets/QFramework/Toolkits/UIKit/Scripts/UIKit.asmdef)
+Assembly with name 'QFramework.CoreKitPro' already exists (Assets/Plugins/QFramework/ToolKitsPro/_CoreKitPro/QFramework.CoreKitPro.asmdef)
+Assembly with name 'QFramework.CoreKitPro' already exists (Assets/QFramework/ToolKitsPro/_CoreKitPro/QFramework.CoreKitPro.asmdef)
+Assembly with name 'ResKit.Editor' already exists (Assets/Plugins/QFramework/Toolkits/ResKit/Editor/ResKit.Editor.asmdef)
+Assembly with name 'ResKit.Editor' already exists (Assets/QFramework/Toolkits/ResKit/Editor/ResKit.Editor.asmdef)
+Assembly with name 'GraphKit.IMGUI' already exists (Assets/Plugins/QFramework/ToolKitsPro/GraphKit/IMGUI/Scripts/GraphKit.IMGUI.asmdef)
+Assembly with name 'GraphKit.IMGUI' already exists (Assets/QFramework/ToolKitsPro/GraphKit/IMGUI/Scripts/GraphKit.IMGUI.asmdef)
+Assembly with name 'com.alelievr.NodeGraphProcessor.Runtime' already exists (Assets/Plugins/QFramework/ToolKitsPro/GraphKit/NodeGraphProcessorModified/Runtime/com.alelievr.NodeGraphProcessor.Runtime.asmdef)
+Assembly with name 'com.alelievr.NodeGraphProcessor.Runtime' already exists (Assets/QFramework/ToolKitsPro/GraphKit/NodeGraphProcessorModified/Runtime/com.alelievr.NodeGraphProcessor.Runtime.asmdef)
+Assembly with name 'com.alelievr.NodeGraphProcessor.Editor' already exists (Assets/Plugins/QFramework/ToolKitsPro/GraphKit/NodeGraphProcessorModified/Editor/com.alelievr.NodeGraphProcessor.Editor.asmdef)
+Assembly with name 'com.alelievr.NodeGraphProcessor.Editor' already exists (Assets/QFramework/ToolKitsPro/GraphKit/NodeGraphProcessorModified/Editor/com.alelievr.NodeGraphProcessor.Editor.asmdef)
+Assembly with name 'AudioKit' already exists (Assets/Plugins/QFramework/Toolkits/AudioKit/Scripts/AudioKit.asmdef)
+Assembly with name 'AudioKit' already exists (Assets/QFramework/Toolkits/AudioKit/Scripts/AudioKit.asmdef)
+Assembly with name 'UIKit.Editor' already exists (Assets/Plugins/QFramework/Toolkits/UIKit/Editor/UIKit.Editor.asmdef)
+Assembly with name 'UIKit.Editor' already exists (Assets/QFramework/Toolkits/UIKit/Editor/UIKit.Editor.asmdef)
+Assembly with name 'QFramework' already exists (Assets/Plugins/QFramework/Framework/Scripts/QFramework.asmdef)
+Assembly with name 'QFramework' already exists (Assets/QFramework/Framework/Scripts/QFramework.asmdef)
+ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <6073cf49ed704e958b8a66d540dea948>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <6073cf49ed704e958b8a66d540dea948>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <1e18c5a6594041c9844bfd0b6618ee4a>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <1e18c5a6594041c9844bfd0b6618ee4a>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <1e18c5a6594041c9844bfd0b6618ee4a>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <bdbae0e7a2b24e08ad2f04e9eab5eb82>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
+
+ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <6073cf49ed704e958b8a66d540dea948>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <6073cf49ed704e958b8a66d540dea948>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <1e18c5a6594041c9844bfd0b6618ee4a>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <1e18c5a6594041c9844bfd0b6618ee4a>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <1e18c5a6594041c9844bfd0b6618ee4a>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <bdbae0e7a2b24e08ad2f04e9eab5eb82>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
+
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\HQFrameWork\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image E:\HQFrameWork\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Assembly with name 'QFramework.CoreKit' already exists (Assets/Prefabs/QFramework/Toolkits/_CoreKit/QFramework.CoreKit.asmdef)
+Assembly with name 'QFramework.CoreKit' already exists (Assets/QFramework/Toolkits/_CoreKit/QFramework.CoreKit.asmdef)
+Assembly with name 'GraphKit.IMGUI.Editor' already exists (Assets/Prefabs/QFramework/ToolKitsPro/GraphKit/IMGUI/Scripts/Editor/GraphKit.IMGUI.Editor.asmdef)
+Assembly with name 'GraphKit.IMGUI.Editor' already exists (Assets/QFramework/ToolKitsPro/GraphKit/IMGUI/Scripts/Editor/GraphKit.IMGUI.Editor.asmdef)
+Assembly with name 'ResKit' already exists (Assets/Prefabs/QFramework/Toolkits/ResKit/Scripts/ResKit.asmdef)
+Assembly with name 'ResKit' already exists (Assets/QFramework/Toolkits/ResKit/Scripts/ResKit.asmdef)
+Assembly with name 'Documents.Editor' already exists (Assets/Prefabs/QFramework/Documents/Editor/Documents.Editor.asmdef)
+Assembly with name 'Documents.Editor' already exists (Assets/QFramework/Documents/Editor/Documents.Editor.asmdef)
+Assembly with name 'DocKit.Editor' already exists (Assets/Prefabs/QFramework/ToolKitsPro/DocKit/Editor/DocKit.Editor.asmdef)
+Assembly with name 'DocKit.Editor' already exists (Assets/QFramework/ToolKitsPro/DocKit/Editor/DocKit.Editor.asmdef)
+Assembly with name 'UIKit' already exists (Assets/Prefabs/QFramework/Toolkits/UIKit/Scripts/UIKit.asmdef)
+Assembly with name 'UIKit' already exists (Assets/QFramework/Toolkits/UIKit/Scripts/UIKit.asmdef)
+Assembly with name 'QFramework.CoreKitPro' already exists (Assets/Prefabs/QFramework/ToolKitsPro/_CoreKitPro/QFramework.CoreKitPro.asmdef)
+Assembly with name 'QFramework.CoreKitPro' already exists (Assets/QFramework/ToolKitsPro/_CoreKitPro/QFramework.CoreKitPro.asmdef)
+Assembly with name 'ResKit.Editor' already exists (Assets/Prefabs/QFramework/Toolkits/ResKit/Editor/ResKit.Editor.asmdef)
+Assembly with name 'ResKit.Editor' already exists (Assets/QFramework/Toolkits/ResKit/Editor/ResKit.Editor.asmdef)
+Assembly with name 'GraphKit.IMGUI' already exists (Assets/Prefabs/QFramework/ToolKitsPro/GraphKit/IMGUI/Scripts/GraphKit.IMGUI.asmdef)
+Assembly with name 'GraphKit.IMGUI' already exists (Assets/QFramework/ToolKitsPro/GraphKit/IMGUI/Scripts/GraphKit.IMGUI.asmdef)
+Assembly with name 'com.alelievr.NodeGraphProcessor.Runtime' already exists (Assets/Prefabs/QFramework/ToolKitsPro/GraphKit/NodeGraphProcessorModified/Runtime/com.alelievr.NodeGraphProcessor.Runtime.asmdef)
+Assembly with name 'com.alelievr.NodeGraphProcessor.Runtime' already exists (Assets/QFramework/ToolKitsPro/GraphKit/NodeGraphProcessorModified/Runtime/com.alelievr.NodeGraphProcessor.Runtime.asmdef)
+Assembly with name 'com.alelievr.NodeGraphProcessor.Editor' already exists (Assets/Prefabs/QFramework/ToolKitsPro/GraphKit/NodeGraphProcessorModified/Editor/com.alelievr.NodeGraphProcessor.Editor.asmdef)
+Assembly with name 'com.alelievr.NodeGraphProcessor.Editor' already exists (Assets/QFramework/ToolKitsPro/GraphKit/NodeGraphProcessorModified/Editor/com.alelievr.NodeGraphProcessor.Editor.asmdef)
+Assembly with name 'AudioKit' already exists (Assets/Prefabs/QFramework/Toolkits/AudioKit/Scripts/AudioKit.asmdef)
+Assembly with name 'AudioKit' already exists (Assets/QFramework/Toolkits/AudioKit/Scripts/AudioKit.asmdef)
+Assembly with name 'ParadoxNotion' already exists (Assets/Plugins/ParadoxNotion/ParadoxNotion.asmdef)
+Assembly with name 'ParadoxNotion' already exists (Assets/ParadoxNotion/ParadoxNotion.asmdef)
+Assembly with name 'UIKit.Editor' already exists (Assets/Prefabs/QFramework/Toolkits/UIKit/Editor/UIKit.Editor.asmdef)
+Assembly with name 'UIKit.Editor' already exists (Assets/QFramework/Toolkits/UIKit/Editor/UIKit.Editor.asmdef)
+Assembly with name 'QFramework' already exists (Assets/Prefabs/QFramework/Framework/Scripts/QFramework.asmdef)
+Assembly with name 'QFramework' already exists (Assets/QFramework/Framework/Scripts/QFramework.asmdef)
+Assembly with name 'QFramework.CoreKit' already exists (Assets/Plugins/QFramework/Toolkits/_CoreKit/QFramework.CoreKit.asmdef)
+Assembly with name 'QFramework.CoreKit' already exists (Assets/QFramework/Toolkits/_CoreKit/QFramework.CoreKit.asmdef)
+Assembly with name 'GraphKit.IMGUI.Editor' already exists (Assets/Plugins/QFramework/ToolKitsPro/GraphKit/IMGUI/Scripts/Editor/GraphKit.IMGUI.Editor.asmdef)
+Assembly with name 'GraphKit.IMGUI.Editor' already exists (Assets/QFramework/ToolKitsPro/GraphKit/IMGUI/Scripts/Editor/GraphKit.IMGUI.Editor.asmdef)
+Assembly with name 'ResKit' already exists (Assets/Plugins/QFramework/Toolkits/ResKit/Scripts/ResKit.asmdef)
+Assembly with name 'ResKit' already exists (Assets/QFramework/Toolkits/ResKit/Scripts/ResKit.asmdef)
+Assembly with name 'Documents.Editor' already exists (Assets/Plugins/QFramework/Documents/Editor/Documents.Editor.asmdef)
+Assembly with name 'Documents.Editor' already exists (Assets/QFramework/Documents/Editor/Documents.Editor.asmdef)
+Assembly with name 'DocKit.Editor' already exists (Assets/Plugins/QFramework/ToolKitsPro/DocKit/Editor/DocKit.Editor.asmdef)
+Assembly with name 'DocKit.Editor' already exists (Assets/QFramework/ToolKitsPro/DocKit/Editor/DocKit.Editor.asmdef)
+Assembly with name 'UIKit' already exists (Assets/Plugins/QFramework/Toolkits/UIKit/Scripts/UIKit.asmdef)
+Assembly with name 'UIKit' already exists (Assets/QFramework/Toolkits/UIKit/Scripts/UIKit.asmdef)
+Assembly with name 'QFramework.CoreKitPro' already exists (Assets/Plugins/QFramework/ToolKitsPro/_CoreKitPro/QFramework.CoreKitPro.asmdef)
+Assembly with name 'QFramework.CoreKitPro' already exists (Assets/QFramework/ToolKitsPro/_CoreKitPro/QFramework.CoreKitPro.asmdef)
+Assembly with name 'ResKit.Editor' already exists (Assets/Plugins/QFramework/Toolkits/ResKit/Editor/ResKit.Editor.asmdef)
+Assembly with name 'ResKit.Editor' already exists (Assets/QFramework/Toolkits/ResKit/Editor/ResKit.Editor.asmdef)
+Assembly with name 'GraphKit.IMGUI' already exists (Assets/Plugins/QFramework/ToolKitsPro/GraphKit/IMGUI/Scripts/GraphKit.IMGUI.asmdef)
+Assembly with name 'GraphKit.IMGUI' already exists (Assets/QFramework/ToolKitsPro/GraphKit/IMGUI/Scripts/GraphKit.IMGUI.asmdef)
+Assembly with name 'com.alelievr.NodeGraphProcessor.Runtime' already exists (Assets/Plugins/QFramework/ToolKitsPro/GraphKit/NodeGraphProcessorModified/Runtime/com.alelievr.NodeGraphProcessor.Runtime.asmdef)
+Assembly with name 'com.alelievr.NodeGraphProcessor.Runtime' already exists (Assets/QFramework/ToolKitsPro/GraphKit/NodeGraphProcessorModified/Runtime/com.alelievr.NodeGraphProcessor.Runtime.asmdef)
+Assembly with name 'com.alelievr.NodeGraphProcessor.Editor' already exists (Assets/Plugins/QFramework/ToolKitsPro/GraphKit/NodeGraphProcessorModified/Editor/com.alelievr.NodeGraphProcessor.Editor.asmdef)
+Assembly with name 'com.alelievr.NodeGraphProcessor.Editor' already exists (Assets/QFramework/ToolKitsPro/GraphKit/NodeGraphProcessorModified/Editor/com.alelievr.NodeGraphProcessor.Editor.asmdef)
+Assembly with name 'AudioKit' already exists (Assets/Plugins/QFramework/Toolkits/AudioKit/Scripts/AudioKit.asmdef)
+Assembly with name 'AudioKit' already exists (Assets/QFramework/Toolkits/AudioKit/Scripts/AudioKit.asmdef)
+Assembly with name 'UIKit.Editor' already exists (Assets/Plugins/QFramework/Toolkits/UIKit/Editor/UIKit.Editor.asmdef)
+Assembly with name 'UIKit.Editor' already exists (Assets/QFramework/Toolkits/UIKit/Editor/UIKit.Editor.asmdef)
+Assembly with name 'QFramework' already exists (Assets/Plugins/QFramework/Framework/Scripts/QFramework.asmdef)
+Assembly with name 'QFramework' already exists (Assets/QFramework/Framework/Scripts/QFramework.asmdef)
+ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <6073cf49ed704e958b8a66d540dea948>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <6073cf49ed704e958b8a66d540dea948>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <1e18c5a6594041c9844bfd0b6618ee4a>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <1e18c5a6594041c9844bfd0b6618ee4a>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <1e18c5a6594041c9844bfd0b6618ee4a>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <bdbae0e7a2b24e08ad2f04e9eab5eb82>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
+
+ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <6073cf49ed704e958b8a66d540dea948>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <6073cf49ed704e958b8a66d540dea948>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <1e18c5a6594041c9844bfd0b6618ee4a>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <1e18c5a6594041c9844bfd0b6618ee4a>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <1e18c5a6594041c9844bfd0b6618ee4a>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00172] in <bdbae0e7a2b24e08ad2f04e9eab5eb82>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[])
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[])
+
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at QFramework.Pro.IMGUIGraphAssetModProcessor.OnReloadEditor () [0x0004e] in E:\HQFrameWork\Assets\Plugins\QFramework\ToolKitsPro\GraphKit\IMGUI\Scripts\Editor\IMGUIGraphAssetModProcessor.cs:76 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <6073cf49ed704e958b8a66d540dea948>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <6073cf49ed704e958b8a66d540dea948>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <6073cf49ed704e958b8a66d540dea948>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <bdbae0e7a2b24e08ad2f04e9eab5eb82>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.200 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2201ms)
+		BeginReloadAssembly (1135ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (952ms)
+			LoadAssemblies (123ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (270ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (446ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (128ms)
+				ProcessInitializeOnLoadAttributes (194ms)
+				ProcessInitializeOnLoadMethodAttributes (83ms)
+				AfterProcessingInitializeOnLoad (21ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.93 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6180 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 54 unused Assets / (0.8 MB). Loaded Objects now: 6752.
+Memory consumption went from 226.7 MB to 226.0 MB.
+Total: 3.094300 ms (FindLiveObjects: 0.355300 ms CreateObjectMapping: 0.236300 ms MarkObjects: 2.271400 ms  DeleteObjects: 0.230400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

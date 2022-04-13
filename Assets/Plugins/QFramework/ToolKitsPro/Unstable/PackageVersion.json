@@ -1,0 +1,19 @@
+{
+    "Id": "",
+    "Version": "v0.0.4",
+    "Type": 3,
+    "AccessRight": 1,
+    "DownloadUrl": "",
+    "InstallPath": "Assets/QFramework/ToolKitsPro/Unstable/",
+    "IncludeFileOrFolders": [
+        "Assets/QFramework/ToolKitsPro/Unstable"
+    ],
+    "DocUrl": "https://liangxiegame.com",
+    "Readme": {
+        "version": "v0.0.4",
+        "content": "add texttyper",
+        "author": "liangxie",
+        "date": "2022 年 03 月 26 日 14:23",
+        "PackageId": ""
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "Id": "",
+    "Version": "v0.4.9",
+    "Type": 0,
+    "AccessRight": 1,
+    "DownloadUrl": "",
+    "InstallPath": "Assets/QFramework/ToolKitsPro/",
+    "IncludeFileOrFolders": [
+        "Assets/QFramework/Documents",
+        "Assets/QFramework/Framework",
+        "Assets/QFramework/license.txt",
+        "Assets/QFramework/Toolkits",
+        "Assets/QFramework/ToolKitsPro"
+    ],
+    "DocUrl": "https://liangxiegame.com",
+    "Readme": {
+        "version": "v0.4.9",
+        "content": "准备发布 AssetStore",
+        "author": "liangxie",
+        "date": "2022 年 04 月 08 日 16:29",
+        "PackageId": ""
+    }
+}

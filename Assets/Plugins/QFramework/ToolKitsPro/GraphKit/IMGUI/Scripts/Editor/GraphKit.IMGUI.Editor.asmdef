@@ -1,0 +1,11 @@
+{
+  "name": "GraphKit.IMGUI.Editor",
+  "references": [
+    "GraphKit.IMGUI",
+    "QFramework.CoreKit",
+    "QFramework"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ]
+}
