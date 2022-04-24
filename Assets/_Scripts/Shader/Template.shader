@@ -1,4 +1,4 @@
-Shader "Custom/Template"
+Shader "Custom/URPTemplate"
 {
     Properties
     {

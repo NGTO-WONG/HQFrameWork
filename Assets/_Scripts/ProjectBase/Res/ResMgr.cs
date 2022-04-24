@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using Cysharp.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -29,6 +30,18 @@ public class ResMgr : BaseManager<ResMgr>
     {
         //开启异步加载的协程
         MonoMgr.GetInstance().StartCoroutine(ReallyLoadAsync(name, callback));
+    }
+    //异步加载资源
+    public async UniTask LoadAsyncAwaitable<T>(string name, UnityAction<T> callback) where T:Object
+    {
+        //开启异步加载的协程
+        // MonoMgr.GetInstance().StartCoroutine(ReallyLoadAsync(name, callback));
+        ResourceRequest r = Resources.LoadAsync<T>(name);
+        await UniTask.WaitUntil(()=>r!=null);
+        if (r.asset is GameObject)
+            callback(GameObject.Instantiate(r.asset) as T);
+        else
+            callback(r.asset as T);
     }
 
     //真正的协同程序函数  用于 开启异步加载对应的资源

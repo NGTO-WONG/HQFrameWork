@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using Cysharp.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.SceneManagement;
@@ -25,12 +26,18 @@ public class ScenesMgr : BaseManager<ScenesMgr>
         fun();
     }
 
+    public async UniTask LoadSceneAsyncAwaitable(string name)
+    {
+        AsyncOperation ao = SceneManager.LoadSceneAsync(name);
+        await UniTask.WaitUntil(() => ao.isDone);
+    }
+    
     /// <summary>
     /// 提供给外部的 异步加载的接口方法
     /// </summary>
     /// <param name="name"></param>
     /// <param name="fun"></param>
-    public void LoadSceneAsyn(string name, UnityAction fun)
+    public void LoadSceneAsynWithProgressEvent(string name, UnityAction fun)
     {
         MonoMgr.GetInstance().StartCoroutine(ReallyLoadSceneAsyn(name, fun));
     }
